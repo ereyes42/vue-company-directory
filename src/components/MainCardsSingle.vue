@@ -38,10 +38,10 @@
         @apply text-3xl font-thin  tracking-wide text-sky-900;
       }
       &-job {
-        @apply -mt-2 text-xs font-semibold text-lime-600;
+        @apply -mt-2 text-sm font-semibold text-lime-600;
       }
       &-email {
-        @apply text-sm text-emerald-600;
+        @apply -mt-2 text-xs text-emerald-600;
       }
       &-quote {
         @apply pt-4 text-lg italic text-emerald-800;
