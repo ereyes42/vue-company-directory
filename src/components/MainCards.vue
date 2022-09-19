@@ -1,9 +1,9 @@
 <script setup>
-  import MainCardsSingle from './MainCardsSingle.vue'
+  import MainCardsSingle from '@/components/MainCardsSingle.vue'
 </script>
 <template>
   <div class="subwrapper">
-    <MainCardsSingle v-for="n in 16" />
+    <MainCardsSingle v-for="n in 16" :key="n" />
   </div>
 </template>
 
