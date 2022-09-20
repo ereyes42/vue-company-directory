@@ -6,9 +6,10 @@
 <template>
   <nav>
     <div class="wrapper">
-      <div class="brand">
+      <RouterLink :to="{ name: 'Home' }" class="brand">
+        <!--RouterLink (links back to MainCom)-->
         <span class="brand-title">{{ brand }}</span>
-      </div>
+      </RouterLink>
       <div class="menu">
         <a href="#" class="menu-item">Department</a>
         <a href="#" class="menu-item">Settings</a>
